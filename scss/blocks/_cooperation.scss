@@ -1,0 +1,94 @@
+.cooperation {
+    position: relative;
+    padding-top: 100px;
+    &__wrap {
+        width: 920px;
+        margin: 0 auto;
+        background-color: #2D2D2D;
+        padding-left: 20px;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        &__content {
+            position: relative;
+            text-align: center;
+            &__title {
+                font-size: 28px;
+                font-weight: 500;
+                color: #FBC418;
+                font-family: 'DrukWideCyr-Medium';
+                margin-top: 50px;
+                text-transform: uppercase;
+            }
+            &__subtitle {
+                font-size: 20px;
+                font-weight: 500;
+                color: #fff;
+                font-family: 'DrukWideCyr-Medium';
+                margin-top: 40px;
+                text-transform: uppercase;
+            }
+            &__text {
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'SF-Semibold';
+                color: #FBC418;
+                margin-top: 15px;
+                span {
+                    font-size: 24px;
+                    font-weight: 600;
+                    font-family: 'SF-Semibold';
+                    color: #fff;
+                }
+            }
+            &__list {
+                margin-top: 20px;
+                margin-bottom: 25px;
+                &__item {
+                    font-size: 22px;
+                    color: #FBC418;
+                    font-weight: 500;
+                    font-family: 'SF-Medium';
+                    &:not(:last-child) {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+            &__btn {
+                width: 260px;
+                display: inline-block;
+                &__inner {
+                    padding: 12px 26px;
+                    background-color: #43D854;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 20px rgba(67, 216, 84, 0.2);
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    transition: 0.5s ease;
+                    &:hover {
+                        box-shadow: none;
+                        opacity: 0.9;
+                    }
+                    &__text {
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #fff;
+                        font-family: 'SF-Medium';
+                        margin-right: 10px;
+                    }
+                    &__icon {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        &__photo {
+            width: 442px;
+            height: 326px;
+            border-radius: 0 10px 10px 0;
+        }
+    }
+}

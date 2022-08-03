@@ -1,0 +1,110 @@
+.note {
+    padding-top: 80px;
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 650px;
+        margin: 0 auto;
+        padding: 30px 25px;
+        border: 2px solid #A6A6A6;
+        border-radius: 5px;
+        &__title {
+            font-size: 24px;
+            text-align: center;
+            font-weight: 500;
+            font-family: 'SF-Medium';
+            color: #FBC418;
+        }
+        &__btns {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            &__phone {
+                width: 300px;
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                background-color: #FBC418;
+                color: #12161E;
+                font-size: 17px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                box-shadow: 0px 0px 30px rgba(67, 216, 84, 0.15);
+                transition: 0.3s ease;
+                margin-bottom: 20px;
+                &:hover {
+                    box-shadow: 0px 0px 30px rgba(67, 216, 84, 0.4);
+                }
+            }
+            &__telegram {
+                width: 300px;
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                background-color: #2AABED;
+                color: #fff;
+                font-size: 18px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                box-shadow: 0px 0px 30px rgba(42, 171, 237, 0.15);
+                transition: 0.3s ease;
+                margin-bottom: 20px;
+                &:hover {
+                    box-shadow: 0px 0px 30px rgba(42, 171, 237, 0.4);
+                }
+            }
+            &__whatsapp {
+                width: 300px;
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                background-color: #43D854;
+                color: #fff;
+                font-size: 18px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                box-shadow: 0px 0px 30px rgba(67, 216, 84, 0.15);
+                transition: 0.3s ease;
+                margin-bottom: 20px;
+                &:hover {
+                    box-shadow: 0px 0px 30px rgba(67, 216, 84, 0.4);
+                }
+            }
+            &__viber {
+                width: 300px;
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                background-color: #8B66A9;
+                color: #fff;
+                font-size: 18px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                box-shadow: 0px 0px 30px rgba(139, 102, 169, 0.15);
+                transition: 0.3s ease;
+                margin-bottom: 20px;
+                &:hover {
+                    box-shadow: 0px 0px 30px rgba(139, 102, 169, 0.4);
+                }
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            text-align: center;
+            width: 550px;
+            margin: 0 auto;
+        }
+    }
+    &__lucky {
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        text-align: center;
+        color: #FBC418;
+        font-weight: 600;
+        font-family: 'SF-Semibold';
+    }
+}

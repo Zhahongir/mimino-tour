@@ -1,0 +1,39 @@
+.question {
+    padding-top: 50px;
+    &__btn {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #FBC418;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px rgba(251, 196, 24, 0.15);
+        width: 279px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.4s ease;
+        animation: exc-item-animation 1s linear forwards; 
+        opacity: 0;
+        &:hover {
+            box-shadow: 0px 0px 30px rgba(251, 196, 24, 0.3);
+            opacity: 0.95;
+        }
+        &__inner {
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            &__text {
+                font-size: 20px;
+                font-weight: 400;
+                color: #12161E;
+                margin-right: 10px;
+                text-transform: uppercase;
+            }
+            &__icon {
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+}

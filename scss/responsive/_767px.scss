@@ -1,0 +1,249 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+
+    .excursion__wrap {
+        grid-template: 1fr / 365px;
+        justify-content: center;
+    }
+
+    .excursion__wrap__item {
+        width: 365px;
+    }
+
+    .excursion__wrap__item__bg {
+        width: 100%;
+    }
+
+    .reviews__wrap {
+        width: 240px;
+    }
+
+    .reviews__wrap__inner__slide__photo {
+        width: 240px;
+        height: 475px;
+    }
+
+    .advantages__wrap__item {
+        width: 270px;
+    }
+
+    .cooperation__wrap {
+        padding-bottom: 0;
+        overflow: hidden;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cooperation__wrap {
+        width: 540px;
+        padding-left: 0;
+    }
+
+    .cooperation__wrap__content__title {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .cooperation__wrap__content__text {
+        font-size: 24px;
+        width: 500px;
+    }
+
+    .cooperation__wrap__content__subtitle {
+        font-size: 22px;
+    }
+
+    .cooperation__wrap__photo {
+        margin-top: 40px;
+        width: 540px;
+        height: 398px;
+    }
+
+    .cooperation__wrap__content__text span {
+        font-size: 24px;
+    }
+
+    .cooperation__wrap__content__list {
+        width: 420px;
+        margin: 0 auto;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .faq__wrap__list__item__content {
+        width: 460px;
+    }
+
+    .faq__wrap__list__item__header__title {
+        text-align: left;
+    }
+
+    .contacts__wrap__info {
+        width: 540px;   
+    }
+
+    .contacts__wrap__map {
+        width: 540px;
+    }
+
+    .reviews__wrap__inner__slide {
+        width: 240px !important;
+        height: 475px !important;
+    }
+
+    .reviews__btns .next-slider1 {
+        top: -285px;
+        right: 30px;
+    }
+
+    .reviews__btns .prev-slider1 {
+        top: -285px;
+        left: 30px;
+    }
+
+    .gallery__wrap__swiper {
+        width: 540px;
+    }
+
+    .gallery__btns {
+        display: none;
+    }
+
+    .gallery__wrap__swiper__inner__slide {
+        width: 260px !important;
+        height: 174px !important;
+    }
+
+    .gallery__wrap__swiper__inner__slide__photo {
+        width: 260px;
+        height: 174px;
+    }
+
+    .gallery__wrap {
+        margin-top: 30px;
+    }
+
+    .footer__wrap__logo__icon {
+        width: 170px;
+        height: 81px;
+    }
+
+    .footer__wrap__list {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__wrap__list__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .footer__rules {
+        font-size: 14px;
+    }
+
+    .footer__since {
+        font-size: 14px;
+    }
+
+    .promo__scroll {
+        bottom: 40px;
+    }
+
+    .menu {
+        width: 60%;
+    }
+
+
+    // EXCURSION
+    .intro {
+        padding-top: 170px;
+    }
+
+    .intro .intro__wrap__content__title-mob__text {
+        font-size: 36px;
+    }
+
+    .intro .intro__wrap__content__subtitle-mob__text {
+        font-size: 36px;
+    }
+
+    .intro__wrap__gallery {
+        width: 540px;
+    }
+
+    .intro-title-h1-mob {
+        font-size: 32px !important;
+    }
+
+    .note__wrap {
+        width: 100%;
+    }
+
+    .note__wrap__subtitle {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .intro-subtitle-h2-mob {
+        font-size: 32px !important;
+    }
+
+    .intro__wrap__content__price__text {
+        width: 495px;
+    }
+
+    .intro__wrap__gallery__inner {
+        width: 540px;
+    }
+
+    .intro__wrap__gallery__inner__contain__slide__photo {
+        width: 540px;
+        height: 362px;
+    }
+
+    .intro__wrap__gallery__inner__contain__slide {
+        width: 540px !important;
+        height: 362px !important;
+    }
+
+    .intro__wrap__content {
+        margin-top: 30px;
+    }
+
+    .intro__wrap__content__description {
+        width: 540px;
+    }
+
+    .page-btn__wrap {
+        flex-direction: column;
+    }
+
+    .page-btn__wrap__prev {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .privacy__title {
+        font-size: 24px;
+    }
+
+    .privacy__wrap__title {
+        font-size: 20px;
+    }
+
+    .privacy__wrap__subtitle {
+        font-size: 16px;
+    }
+
+    .privacy__wrap__list__item {
+        font-size: 16px;
+    }
+}

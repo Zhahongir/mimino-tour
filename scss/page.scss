@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF-Regular', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #030303;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+// Blocks
+@import '../scss/fonts';
+
+@import '../scss/blocks/header';
+@import '../scss/blocks/intro';
+@import '../scss/blocks/group';
+@import '../scss/blocks/includes';
+@import '../scss/blocks/note';
+@import '../scss/blocks/btn';
+@import '../scss/blocks/page-btn';
+@import '../scss/blocks/footer';
+
+@import '../scss/blocks/modal-window';
+@import '../scss/blocks/animation';
+
+
+// Responsive
+@import '../scss/responsive/1199px';
+@import '../scss/responsive/991px';
+@import '../scss/responsive/767px';
+@import '../scss/responsive/575px';

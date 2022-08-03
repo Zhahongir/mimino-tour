@@ -1,0 +1,105 @@
+.includes {
+    position: relative;
+    padding-top: 100px;
+    &__title {
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+        font-family: 'SF-Semibold';
+        text-transform: uppercase;
+    }
+    &__wrap {
+        margin-top: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__item {
+            position: relative;
+            width: 300px;
+            height: 230px;
+            border: 1px solid #A6A6A6;
+            &__inner {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                width: 100%;
+                &__icon {
+                    width: 80px;
+                    height: 80px;
+                }
+                .car-icon {
+                    width: 130px;
+                    height: 46px;
+                }
+                .low-price-icon {
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: -10px;
+                }
+                .funiciler-icon {
+                    width: 90px;
+                    height: 90px;
+                }
+                .transfer-icon {
+                    width: 90px;
+                    height: 90px;
+                }
+                .wine-2-icon {
+                    width: 55px;
+                    height: 85px;
+                }
+                .tasting-icon {
+                    width: 84px;
+                    height: 70px;
+                }
+                .drink-icon {
+                    width: 55px;
+                    height: 83px;
+                }
+                .food-icon {
+                    width: 85px;
+                    height: 85px;
+                }
+                .feast-icon {
+                    width: 100px;
+                    height: 100px;
+                }
+                .tackle-icon {
+                    width: 85px;
+                    height: 85px;
+                }
+                .barbecue-icon {
+                    width: 85px;
+                    height: 85px;
+                }
+                &__title {
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: #fff;
+                    font-family: 'SF-Medium';
+                    margin-top: 25px;
+                }
+            }
+            .one-row-adv {
+                bottom: 48px;
+            }
+            .two-row-adv {
+                bottom: 23px;
+            }
+            .three-row-adv {
+                bottom: 17px;
+            }
+        }
+    }
+    &__offer {
+        margin-top: 40px;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'SF-Semibold';
+        text-align: center;
+        color: #FBC418;
+        text-transform: uppercase;
+    }
+}

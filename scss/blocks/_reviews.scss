@@ -1,0 +1,61 @@
+.reviews {
+    padding-top: 45px;
+    padding-bottom: 65px;
+    background: url(../images/reviews-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &__title {
+        font-size: 36px;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'SF-Semibold';
+        opacity: 0;
+    }
+    &__wrap {
+        width: 1048px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 40px;
+        opacity: 0;
+        &__inner {
+            &__slide {
+                width: 217px !important;
+                height: 429px !important;
+                &__photo {
+                    width: 217px;
+                    height: 429px;
+                }
+            }
+        }
+    }
+    &__btns {
+        position: relative;
+        display: flex;
+        .prev-slider1 {
+            position: absolute;
+            left: 0;
+            top: -255px;
+            opacity: 0;
+        }
+        .next-slider1 {
+            position: absolute;
+            right: 0;
+            top: -255px;
+            opacity: 0;
+        }
+        &__icon {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+

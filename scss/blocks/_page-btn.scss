@@ -1,0 +1,95 @@
+.page-btn {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    align-items: center;
+    &__wrap {
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        &__prev {
+            display: inline-block;
+            margin-right: 50px;
+            transition: 0.3s ease;
+            &:hover .page-btn__wrap__prev__contain {
+                background-color: #FBC418;
+            }
+            &:hover .page-btn__wrap__prev__contain__text {
+                color: #12161E;
+                font-weight: 400;
+            }
+            &:hover .page-btn__wrap__prev__contain__icon {
+                fill: #12161E;
+                transform: translateX(-5px);
+            }
+            &__contain {
+                width: 297px;
+                align-items: center;
+                text-align: center;
+                padding: 15px 20px;
+                border: 1px solid #FBC418;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                transition: 0.5s ease;
+                &__icon {
+                    width: 25px;
+                    height: 14px;
+                    fill: #FBC418;
+                    transition: 0.5s ease;
+                    margin-top: 1px;
+                }
+                &__text {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #fff;
+                    font-family: 'SF-Medium';
+                    margin-left: 10px;
+                    transition: 0.5s ease;
+                }
+            }
+        }
+        &__next {
+            display: inline-block;
+            transition: 0.3s ease;
+            &:hover .page-btn__wrap__next__contain {
+                background-color: #FBC418;
+            }
+            &:hover .page-btn__wrap__next__contain__text {
+                color: #12161E;
+                font-weight: 400;
+            }
+            &:hover .page-btn__wrap__next__contain__icon {
+                fill: #12161E;
+                transform: translateX(5px);
+            }
+            &__contain {
+                width: 297px;
+                align-items: center;
+                text-align: center;
+                padding: 15px 20px;
+                border: 1px solid #FBC418;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                transition: 0.5s ease;
+                &__icon {
+                    width: 25px;
+                    height: 14px;
+                    fill: #FBC418;
+                    transition: 0.5s ease;
+                    margin-top: 1px;
+                }
+                &__text {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #fff;
+                    font-family: 'SF-Medium';
+                    margin-right: 10px;
+                    transition: 0.5s ease;
+                }
+            }
+        }
+    }
+}

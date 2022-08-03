@@ -1,0 +1,63 @@
+.footer {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    border-top: 1px solid #a6a6a670;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            &__icon {
+                width: 170px;
+                height: 81px;
+                transition: 0.3s ease;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        &__list {
+            display: flex;
+            &__item {
+                &:not(:last-child) {
+                    margin-right: 40px;
+                }
+                &__link {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #fff;
+                    font-family: 'SF-Medium';
+                    transition: 0.3s ease;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        &__privacy {
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'SF-Medium';
+            color: #FBC418;
+            transition: 0.3s ease;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    &__rules {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+    &__since {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+}

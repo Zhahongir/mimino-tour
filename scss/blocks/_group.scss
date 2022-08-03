@@ -1,0 +1,138 @@
+.group {
+    padding-top: 170px;
+    position: relative;
+    &__title {
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__item {
+        .group__wrap {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__content {
+                display: flex;
+                flex-direction: column;
+                &__title {
+                    font-size: 32px;
+                    font-weight: 600;
+                    font-family: 'SF-Semibold';
+                    color: #FBC418;
+                    text-transform: uppercase;
+                }
+                &__include {
+                    margin-top: 30px;
+                    display: flex;
+                    align-items: center;
+                    &__icon {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 10px;
+                    }
+                    &__text {
+                        font-size: 24px;
+                        font-weight: 500;
+                        font-family: 'SF-Medium';
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                }
+                &__list {
+                    margin-top: 15px;
+                    &__item {
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: #fff;
+                        font-family: 'SF-Regular';
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                &__price {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    &__icon {
+                        width: 35px;
+                        height: 35px;
+                        margin-right: 10px;
+                    }
+                    &__text {
+                        font-size: 24px;
+                        font-weight: 500;
+                        font-family: 'SF-Medium';
+                        color: #fff;
+                        text-transform: uppercase;
+                        span {
+                            font-size: 24px;
+                            font-weight: 500;
+                            font-family: 'SF-Medium';
+                            color: #FBC418;
+                        }
+                    }
+                }
+                &__btn {
+                    display: flex;
+                    width: 279px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    align-items: center;
+                    background-color: #FBC418;
+                    margin-top: 22px;
+                    cursor: pointer;
+                    transition: 0.4s ease;
+                    &__text {
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: 'SF-Regular';
+                        color: #12161E;
+                        margin-right: 10px;
+                    }
+                    &:hover {
+                        box-shadow: 0px 0px 30px rgba(251, 196, 24, 0.3);
+                        opacity: 0.95;
+                    }
+                }
+            }
+            &__calendar {
+                &__title {
+                    font-size: 32px;
+                    font-weight: 600;
+                    font-family: 'SF-Semibold';
+                    color: #FBC418;
+                    text-transform: uppercase;
+                    display: none;
+                }
+                &__month {
+                    font-size: 28px;
+                    font-weight: 500;
+                    font-family: 'SF-Medium';
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+                &__img {
+                    width: 475px;
+                    height: 309px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        &__divider {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 40px;
+            height: 1px;
+            background-color: #777777;
+        }
+    }
+    
+}

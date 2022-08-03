@@ -1,0 +1,94 @@
+.promo {
+    background: url(../images/photo-promo.webp);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 330px;
+    padding-top: 250px;
+    &__wrap {
+        position: relative;
+        &__title {
+            overflow: hidden;
+            &__text {
+            font-size: 52px;
+            font-weight: 700;
+            font-family: 'SF-Bold';
+            color: #fff;
+            text-transform: uppercase;
+            transform: translateY(100%);
+            span {
+                color: #FBC418;
+                font-weight: 700;
+            }
+            }  
+        }
+        &__subtitle {
+            overflow: hidden;
+            &__text {
+                font-size: 52px;
+                font-weight: 700;
+                font-family: 'SF-Bold';
+                color: #FBC418;
+                text-transform: uppercase;
+                transform: translateY(100%);
+            }
+        }
+        &__offer {
+            margin-top: 10px;
+            font-size: 24px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 25px;
+            opacity: 0;
+        }
+        &__btn {
+            opacity: 0;
+            width: 325px;
+            display: block;
+            background-color: #FBC418;
+            align-items: center;
+            border-radius: 10px;
+            &__inner {
+                text-align: center;
+                align-items: center;
+                padding: 15px 35px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                background-color: #FBC418;
+                box-shadow: 0px 0px 30px rgba(251, 196, 24, 0.15);
+                transition: 0.4s ease;
+                &:hover {
+                    box-shadow: 0px 0px 30px rgba(251, 196, 24, 0.3);
+                }
+                &:hover .promo__wrap__btn__inner__icon {
+                    transform: translateX(10px);
+                }
+                &__text {
+                    color: #12161E;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-right: 10px;
+                    
+                }
+                &__icon {
+                    transition: 0.4s ease;
+                }
+            }
+        }
+    }
+    &__scroll {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 30px;
+        height: 17px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
